@@ -1,0 +1,26 @@
+img{
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+nav a{
+    margin:10px 30px 0 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 2px;
+}
+nav a:hover{
+    background-color: darkgray;
+}
+.gg{
+    text-align: center;
+}
+.head{
+    margin-bottom: 20px;
+}

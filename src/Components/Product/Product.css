@@ -1,0 +1,32 @@
+.product{
+    display: flex;
+}
+.info{
+        margin-left: 30px;
+        font-size: 1.2rem;
+        font-weight:600;
+        border-top:1px solid darkgray ;
+        border-bottom: 1px solid darkgray ;
+}
+h3{
+    color:blue;
+
+}
+.btn{
+    color: black;
+    background-color: goldenrod;
+    padding: 10px 30px;
+    border: 1px solid darkgrey;
+}
+.star{
+     color: gold;
+     font-size: 1.5rem;
+}
+.red{
+    text-align: center;
+    color: darkred;
+}
+.summary p{
+    margin-left: 5px;
+    font-weight: 600;
+}
