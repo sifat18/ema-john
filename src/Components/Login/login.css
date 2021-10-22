@@ -1,0 +1,11 @@
+.login-input{
+    width: 220px;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px solid grey;
+}
+.ship{
+    margin: 10px auto;
+    display: block;
+}

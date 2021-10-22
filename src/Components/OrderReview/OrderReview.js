@@ -21,13 +21,13 @@ const OrderReview = () => {
     const history = useHistory();
     const handleOrder = () => {
         clearTheCart();
-        history.push('/placeOrder');
+        history.push('/shipping');
         setcart([])
 
     }
     return (
         <div className='shop'>
-            <div className='product-container'>
+            <div className='oproduct-container'>
                 {cart.map(m => <Product q={true} btnname={'remove'} heandleclick={heandleclick} key={m.key} product={m}></Product>)}
             </div>
             <div className='cart-container'>

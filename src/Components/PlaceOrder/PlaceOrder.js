@@ -3,10 +3,7 @@ import img from '../../Utils/giphy.gif'
 const PlaceOrder = () => {
     return (
         <div>
-            <img src={img} alt="" style={{
-                height: '500px',
-                width: '800px'
-            }} />
+            <img src={img} alt="" className='success' />
         </div>
     );
 };
